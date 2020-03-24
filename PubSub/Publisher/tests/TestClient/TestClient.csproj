@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Publisher.ApiClient\Publisher.ApiClient.csproj" />
+    <ProjectReference Include="..\..\src\Publisher.ApiContract\Publisher.ApiContract.csproj" />
+  </ItemGroup>
+
+</Project>

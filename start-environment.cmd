@@ -1,0 +1,1 @@
+docker run -p 15672:15672 -p 5672:5672 -e RABBITMQ_DEFAULT_USER=examples -e RABBITMQ_DEFAULT_PASS=examples --name examples-rabbit rabbitmq:3.6.16-management

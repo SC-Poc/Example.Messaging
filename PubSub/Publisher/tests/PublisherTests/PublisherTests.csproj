@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.5.0" />
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="1.2.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Publisher.ApiClient\Publisher.ApiClient.csproj" />
+    <ProjectReference Include="..\..\src\Publisher.ApiContract\Publisher.ApiContract.csproj" />
+    <ProjectReference Include="..\..\src\Publisher.Common\Publisher.Common.csproj" />
+    <ProjectReference Include="..\..\src\Publisher.MessagingContract\Publisher.MessagingContract.csproj" />
+    <ProjectReference Include="..\..\src\Publisher.Worker\Publisher.Worker.csproj" />
+    <ProjectReference Include="..\..\src\Publisher\Publisher.csproj" />
+  </ItemGroup>
+
+</Project>
