@@ -21,8 +21,6 @@ namespace Publisher.Worker
         {
             base.ConfigureServicesExt(services);
 
-            services.AddHttpClient();
-
             services.AddMassTransit(x =>
             {
                 x.AddBus(provider => Bus.Factory.CreateUsingRabbitMq(cfg =>

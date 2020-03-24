@@ -1,4 +1,5 @@
 #!/bin/bash
+
 solutions=$(find . -name '*.sln')
 
 for sln in $solutions

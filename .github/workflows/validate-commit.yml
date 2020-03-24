@@ -18,5 +18,3 @@ jobs:
         dotnet-version: 3.1.100
     - name: Build
       run: sh build.sh
-    - name: Test
-      run: sh test.sh

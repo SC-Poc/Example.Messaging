@@ -1,12 +1,12 @@
 {
   "profiles": {
-    "Subscriber": {
+    "Subscriber.Worker": {
       "commandName": "Project",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "SeqUrl": "http://seq.common.svc.cluster.local",
-        "HttpPort": 5010,
-        "GrpcPort": 5011
+        "HttpPort": 5110,
+        "GrpcPort": 5111, 
+        "SeqUrl": "http://seq.common.svc.cluster.local"
       }
     }
   }
