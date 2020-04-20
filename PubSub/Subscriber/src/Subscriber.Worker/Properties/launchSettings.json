@@ -4,8 +4,8 @@
       "commandName": "Project",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "HttpPort": 5100,
-        "GrpcPort": 5101
+        "HttpPort": 5110,
+        "GrpcPort": 5111
       }
     }
   }

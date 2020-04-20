@@ -3,9 +3,9 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AssemblyName>Swisschain.Examples.Subscriber.Worker</AssemblyName>
-    <RootNamespace>Subscriber.Worker</RootNamespace>
-    <UserSecretsId>6e976bfb-8c1c-4488-87fd-e271c42ae119</UserSecretsId>
+    <AssemblyName>Swisschain.Examples.SenderConsumer.Worker</AssemblyName>
+    <RootNamespace>SenderConsumer.Worker</RootNamespace>
+    <UserSecretsId>a3d623d9-71c3-405e-a636-7f2c695fd3af</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,8 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Publisher\src\Publisher.MessagingContract\Publisher.MessagingContract.csproj" />
-    <ProjectReference Include="..\Subscriber.Common\Subscriber.Common.csproj" />
+    <ProjectReference Include="..\SenderConsumer.Common\SenderConsumer.Common.csproj" />
   </ItemGroup>
 
   <ItemGroup>
