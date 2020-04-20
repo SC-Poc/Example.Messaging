@@ -4,9 +4,8 @@
       "commandName": "Project",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development",
-        "HttpPort": 5110,
-        "GrpcPort": 5111, 
-        "SeqUrl": "http://seq.common.svc.cluster.local"
+        "HttpPort": 5100,
+        "GrpcPort": 5101
       }
     }
   }

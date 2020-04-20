@@ -3,13 +3,12 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <AssemblyName>Publisher</AssemblyName>
-    <RootNamespace>Publisher</RootNamespace>
-    <UserSecretsId>03b6e5a0-083d-41be-b4a9-66ead46fd011</UserSecretsId>
+    <AssemblyName>Swisschain.Examples.Publisher</AssemblyName>
+    <UserSecretsId>ef4c7a0f-e760-400c-8cab-a95ac34ffa04</UserSecretsId>
   </PropertyGroup>
 
   <PropertyGroup>
-    <DocumentationFile>bin\Publisher.xml</DocumentationFile>
+    <DocumentationFile>bin\Examples.Publisher.xml</DocumentationFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -21,13 +20,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MassTransit" Version="6.2.2" />
-    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="6.2.2" />
-    <PackageReference Include="MassTransit.RabbitMQ" Version="6.2.2" />
+    <PackageReference Include="MassTransit" Version="6.2.4" />
+    <PackageReference Include="MassTransit.Extensions.DependencyInjection" Version="6.2.4" />
+    <PackageReference Include="MassTransit.RabbitMQ" Version="6.2.4" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Swisschain.Sdk.Server" Version="2.5.0" />
+    <PackageReference Include="Swisschain.Sdk.Server" Version="5.0.3" />
   </ItemGroup>
 
   <ItemGroup>

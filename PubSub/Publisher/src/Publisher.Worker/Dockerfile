@@ -3,4 +3,4 @@ WORKDIR /app
 EXPOSE 5101
 EXPOSE 5100
 COPY . .
-ENTRYPOINT ["dotnet", "Publisher.Worker.dll"]
+ENTRYPOINT ["dotnet", "Swisschain.Examples.Publisher.Worker.dll"]
