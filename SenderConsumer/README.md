@@ -1,6 +1,6 @@
 # Examples.SenderConsumer
 
-![Continous integration build and publish](https://github.com/swisschain/Examples.SenderConsumer/workflows/Continous%20integration%20build%20and%20publish/badge.svg)
+This is the example of the commands sender and consumer. If don't familiar with commands sending concept in Masstransit, read [this](https://masstransit-project.com/usage/producers.html#send) article
+In Swisschain services it's common to send commands only within the single service from the API host to the worker host.
 
-![API docker image](https://img.shields.io/docker/v/swisschains/examples-sender-consumer?sort=semver)
-![Worker docker image](https://img.shields.io/docker/v/swisschains/examples-sender-consumer-worker?sort=semver)
+In this particular example API sends `ExecuteWithdrawal` command whenever `POST /api/withdrawals/execute` is called and worker consumes this command.
